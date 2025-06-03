@@ -120,13 +120,17 @@ Doctor Information:
 Patient Reviews Summary:
 {len(patient_reviews)} reviews available.
 
-You will answer user queries based on this data only. Always be polite and professional.
+Instructions:
+- When the user asks about the doctor's specialties, clinics, experience, languages, or reviews, use the data above to answer accurately and professionally.
+- If the user asks for access to raw database information (e.g., JSON, structured data), provide it in a clean format if available.
+- If the user asks something outside the scope of the doctor data (e.g., general knowledge questions like "Who is the Prime Minister of India?"), you are allowed to answer them as a general-purpose assistant.
+- Always be polite and professional in your tone.
+- If the answer is not available from the doctor data and it's not a general question, respond with: "I'm sorry, I don't have that information."
+- Do not guess or fabricate information from the doctor-related data.
 
-If the user asks about the doctor's specialties, clinics, experience, or reviews, provide accurate info.
-If you don’t know the answer from the data, respond with "I'm sorry, I don't have that information."
-
-Only provide info related to the above data. Do not guess or fabricate.
+You can respond to both medical queries (based on the above data) and general knowledge questions.
 """
+
     return prompt.strip()
 
 # --------------------------------------------
