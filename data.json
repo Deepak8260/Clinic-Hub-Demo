@@ -1,0 +1,70 @@
+{
+  "doctor": {
+    "name": "Rinky Barala",
+    "degrees": ["MD - Internal Medicine"],
+    "experience": "4 years of clinical experience",
+    "rating": 4,
+    "reviews_count": 0,
+    "recommendation_rate": "98%",
+    "clinics_count": 3,
+    "languages_spoken": ["English", "Telugu", "Hindi"],
+    "specializations": [
+      "Psychiatry",
+      "Rheumatology",
+      "Neurology",
+      "Ophthalmology"
+    ],
+    "about": "Dr. Rinky Barala is an Internal Medicine specialist with 4 years of experience, currently practicing at Wellness Plus Clinic and MedicoPoint in Kolkata. She earned her MBBS from West Bengal University of Health Sciences and MD in Internal Medicine from KPC Medical College. She focuses on chronic disease management, lifestyle-related illnesses, and elderly care.",
+    "associated_clinics": [
+      {
+        "name": "Durga Nursing",
+        "location": "STPI, Balasore, Baleswar, 560001",
+        "fee": 600
+      },
+      {
+        "name": "AAROH SPEECH & HEARING CLINIC",
+        "location": "Near SHARPMIND +2 College, Azimabad, Balasore, Baleswar, 756001",
+        "fee": 750
+      },
+      {
+        "name": "AAROH SPEECH & HEARING CLINIC",
+        "location": "Near Bhadrak Hospital, Samaraipur, Rajpur, Bhadrak, Bhadrak, 756181",
+        "fee": 550
+      }
+    ],
+    "patient_reviews": [
+      {
+        "rating": null,
+        "comment": "Rinky was okay, but I waited too long."
+      },
+      {
+        "rating": null,
+        "comment": "Rinky explained my condition clearly and was very reassuring."
+      },
+      {
+        "rating": null,
+        "comment": "Good treatment by Rinky. Friendly staff as well."
+      }
+    ]
+  },
+  "similar_specialists": [
+    {
+      "name": "Dr. Robert Smith",
+      "specialization": "Cardiologist",
+      "rating": 4.5,
+      "reviews_count": 150
+    },
+    {
+      "name": "Dr. Sarah Williams",
+      "specialization": "Cardiologist",
+      "rating": 4.6,
+      "reviews_count": 175
+    },
+    {
+      "name": "Dr. James Brown",
+      "specialization": "Cardiac Surgeon",
+      "rating": 4.7,
+      "reviews_count": 200
+    }
+  ]
+}
